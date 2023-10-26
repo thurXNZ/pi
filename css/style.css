@@ -67,7 +67,7 @@ header {
   }
 
   p {
-    background-color: rgb(238, 238, 238);
+    background-color:#faf9f9;
     overflow: auto;
     text-align: center;
     padding: 0px;
@@ -83,4 +83,7 @@ img {
 
 .container {
     margin: 20px;
+}
+.titulo {
+  color: #29bf15;
 }
