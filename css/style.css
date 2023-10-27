@@ -1,14 +1,16 @@
 * {
+    margin: 0 auto;
+    padding: 0 auto;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     scroll-behavior: smooth;
     font-family: Tahoma;
   }
   
-  .container {
+  /* .container {
     margin: 0 auto;
     padding: 0 auto;
-  }
+  } */
 
   /*Menu*/
 header {
@@ -66,24 +68,92 @@ header {
     font-weight: normal;
   }
 
-  p {
+  /*Banner*/
+
+.banner{
+  min-height: 600px;
+  background-image: url('../img/energiarenovavel.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+  /* posts */
+  /* p {
     background-color:#faf9f9;
     overflow: auto;
     text-align: center;
     padding: 0px;
     border-radius: 30px;
-    width: 1200px;
+    width: 800px;
 }
 img {
     float: left;
     margin: 0px;
     padding: 0px;
-    width: 500px;
+    width: 250px;
 }
 
 .container {
-    margin: 20px;
-}
+    margin: 20px; 
+} */
+
+/* titulo */
 .titulo {
   color: #29bf15;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
 }
+
+/* .blocos {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  */
+.blocos {
+  max-width: 1000px;
+  margin-top: 50px;
+
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+/* .bloco-individual {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+} */
+
+
+.bloco-individual img {
+  margin-bottom: 10px;
+  width: 450px;
+  height: 350px;
+  border-radius: 10%;
+  border: solid green 7px;
+}
+
+
+.bloco-individual h3 {
+  text-align: center;
+  color: rgb(67, 141, 44);
+  font-size: 20px;
+}
+
+
+.bloco-individual p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
