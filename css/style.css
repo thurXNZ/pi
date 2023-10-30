@@ -2,9 +2,11 @@
     margin: 0 auto;
     padding: 0 auto;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     scroll-behavior: smooth;
-    font-family: Tahoma;
+    font-family: Tahoma; */
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
   }
   
   /* .container {
@@ -53,10 +55,12 @@ header {
     padding: 10px 20px;
     border-radius: 25px;
     background-color: #29bf15;
+    /* background-color: green; */
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin-right: 10px;
     margin-bottom: 10px;
+    transition: background-color 0.2s ease-in-out;
   }
   
   .menu a:hover {
@@ -64,7 +68,8 @@ header {
   }
   
   .menu a:hover {
-    color: #29bf15;
+    /* color: #29bf15; */
+    color: green;
     font-weight: normal;
   }
 
@@ -102,7 +107,8 @@ img {
 
 /* titulo */
 .titulo {
-  color: #29bf15;
+  /* color: #29bf15; */
+  color: green;
   text-align: center;
   font-size: 35px;
   margin-top: 50px;
@@ -124,14 +130,9 @@ img {
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 3rem;
+  /* text-align: justify; */
 }
-
-/* .bloco-individual {
-  display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-} */
 
 
 .bloco-individual img {
@@ -142,18 +143,211 @@ img {
   border: solid green 7px;
 }
 
-
 .bloco-individual h3 {
   text-align: center;
-  color: rgb(67, 141, 44);
+  /* color: rgb(67, 141, 44); */
+  /* color: #29bf15; */
+  color: green;
   font-size: 20px;
 }
 
-
 .bloco-individual p {
-  text-align: center;
+  text-align: justify;
   margin-top: 10px;
+}
+/* *p{
+  text-align: justify;
+} */
+
+/* Fale conosco */
+
+.formulario form {
+  margin-top: 50px;
 }
 
 
+.formulario {
+  width: 50%;
+}
+
+
+input {
+  margin-top: 12px;
+}
+
+
+.formulario input[type='text'],
+.formulario input[type='email'] {
+  width: 100%;
+  font-size: 20px;
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 4px;
+  border: 1px solid rgb(67, 141, 44);
+}
+
+
+.formulario textarea{
+  width: 100%;
+  height: 150px;
+  padding-left: 15px;
+  font-size: 15px;
+  padding-top: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(67, 141, 44);
+  margin-top: 12PX;
+}
+
+
+.botao{
+  display: flex;
+  justify-content: center;
+}
+
+
+.botao input[type='submit'] {
+  height: 50px;
+  width: 160px;
+  background-color: rgb(67, 141, 44);
+  color: antiquewhite;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: rgb(67, 141, 44);
+}
+
+.botao input:hover{
+  background-color: rgb(67, 141, 44);
+}
+
+input:focus,
+textarea:focus{
+  outline-color: rgb(67, 141, 44);
+}
+
+/* rodapé */
+
+footer{
+  background-color: #f8f8f8;
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.footer-col{
+    padding: 0 50px;
+    width: 25%;
+    text-align: center;
+}
+
+.footer-col h4{
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* .footer-col .form-insc input {
+    flex: 1px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.footer-col .form-insc button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+} */
+
+/*media query*/
+@media (max-width: 850px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .blocos{
+      flex-direction: column;
+
+    }
+}
+
+@media (max-width: 600px){
+    .footer-col{
+        width: 100%;
+    }
+}
+
+/*rodapé*/
+.rodape{
+  /* background: rgb(67, 141, 44); */
+  /* background: #29bf15; */
+  background: green;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* .container-blocos{
+  display: flex;
+  justify-content: center;
+} */
+
+.rodape h4{
+  margin-top: 50px;
+}
+
+.links-medias{
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 60px; */
+}
+
+.links-medias a{
+  color: white;
+}
+
+.container-direitos{
+  width: 100%;
+  margin-top: 50px;
+}
+
+.container-direitos a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+#linktopo{
+  text-decoration: none;
+  color: #29bf15;
+  font-size: 20px;
+  background-color: white;
+  padding: 10px;
+  right: 30px;
+  position: fixed;
+  bottom: 30px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
 
