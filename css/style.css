@@ -112,6 +112,7 @@ img {
   text-align: center;
   font-size: 35px;
   margin-top: 50px;
+  margin-bottom: 15px;
 }
 
 /* .blocos {
@@ -170,7 +171,9 @@ img {
 
 .sobre p{
   font-size: large;
-  margin: 60px;
+    margin: 0px 20rem;
+    text-align: center;
+    width: auto;
 }
 
 /* Fale conosco */
