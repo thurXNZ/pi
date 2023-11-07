@@ -344,6 +344,7 @@ footer{
 .links-medias{
   flex-direction: end;
   /* margin-top: 60px; */
+  padding-bottom: 20px;
 }
 
 .links-medias a{
