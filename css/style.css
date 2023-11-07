@@ -85,6 +85,17 @@ header {
   background-attachment: fixed;
 }
 
+/* .banner-baixo {
+  min-height: 200px;
+  background-image: url('../img/Biomassa-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-attachment: fixed;
+  margin-top: 50px;
+} */
+
   /* posts */
   /* p {
     background-color:#faf9f9;
@@ -179,7 +190,7 @@ img {
 /* Fale conosco */
 
 .formulario form {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 
