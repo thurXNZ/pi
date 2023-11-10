@@ -10,7 +10,7 @@
   }
 
   body {
-    background-image: url(../img/energiarenovavel.webp);
+    background-image: url(../img/energia-limpa-ca-edited.jpg);
     background-size: 100%;
     /* width: 100%; */
   }
@@ -27,7 +27,7 @@
   .parte-login{
     float: right;
     background-color: rgba(255, 255, 255, 0.5);
-    height: 963px;
+    height: 953px;
     width: 30%;
   }
 
@@ -37,8 +37,41 @@
   }
 
   .botao{
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
   }
   
+.cadastro input[type='email'],
+.cadastro input[type='password'] {
+  width: 60%;
+  font-size: 20px;
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 4px;
+  border: 1px solid rgb(67, 141, 44);
+}
+
+input {
+  margin-top: 10px;
+}
+
+.botao input[type='submit'] {
+  height: 45px;
+  width: 150px;
+  background-color: rgb(67, 141, 44);
+  color: antiquewhite;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 7px;
+  border: rgb(67, 141, 44);
+}
+
+.botao input:hover{
+  background-color: rgb(67, 141, 44);
+}
+
+input:focus,
+textarea:focus{
+  outline-color: rgb(67, 141, 44);
+}
