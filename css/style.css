@@ -148,6 +148,7 @@ img {
 
 
 .bloco-individual img {
+  display: flex;
   margin-bottom: 10px;
   width: 450px;
   height: 350px;
