@@ -46,12 +46,12 @@ body{
   }
   
   .botao input:hover{
-    background-color: rgb(67, 141, 44);
+    background-color: rgb(70, 170, 40);
   }
   
   input:focus,
   textarea:focus{
-    outline-color: rgb(67, 141, 44);
+    outline-color: rgb(70, 170, 40);
   }
   
   .senha,.email{
