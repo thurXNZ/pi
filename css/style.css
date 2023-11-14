@@ -360,7 +360,7 @@ footer{
 .links-medias{
   flex-direction: end;
   /* margin-top: 60px; */
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .links-medias a{
@@ -374,7 +374,7 @@ footer{
 
 .container-direitos a{
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
