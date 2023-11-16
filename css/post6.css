@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 85px;
+    background-color: #ffffff;
+  }
+
+  
+/* .logo img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+  
+  } */
+
+  .menu {
+    float: left;
+  }
+  
+  
+  .menu ul {
+    margin-top: 24px;
+  }
+  
+  
+  .menu li {
+    display: inline-block;
+    padding: 0 10px;
+  }
+  
+  
+  .menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #29bf15;
+    /* background-color: green; */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .menu a:hover {
+    background-color: #ffffff;
+  }
+  
+  .menu a:hover {
+    /* color: #29bf15; */
+    color: green;
+    font-weight: normal;
+  }
+
+.banner{
+    min-height: 70vh;
+    background-image: url('../img/solar1-transformed.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+  }
+
+.content{
+    text-align: center;
+}
+
+.titulo{
+    margin: 5vh;
+    font-size: 5vh;
+    color: rgb(67, 141, 44);
+}
+
+.textoimg1{
+    display: flex;
+    margin-left: 50vh;
+    margin-right: 50vh;
+}
+
+.textoimg1 texto{
+    display: flex;
+    margin-left: 50vh;
+    margin-right: 50vh;
+}
+
+/* rodapé */
+
+footer{
+    background-color: #f8f8f8;
+  }
+  
+  .container-footer{
+      max-width: 1400px;
+      padding: 0 4%;
+  
+  }
+  
+  .row-footer{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 15px;
+  }
+  
+  .footer-col{
+      width: 100%;
+      text-align: center;
+  }
+  
+  .footer-col h4{
+      color: white;
+      font-size: 22px;
+      margin-top: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+
+  }
+  
+  /* .footer-col .form-insc input {
+      flex: 1px;
+      width: 100%;
+      padding: 10px;
+      font-size: 15px;
+      outline: none;
+      background-color: white;
+      border: 1px solid white;
+  }
+  
+  .footer-col .form-insc button{
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      font-size: 17px;
+      outline: none;
+      cursor: pointer;
+      font-weight: bold;
+      background-color: white;
+  } */
+  
+  /*media query*/
+  /* @media (max-width: 850px){
+      .footer-col{
+          width: 50%;
+          margin-bottom: 30px;
+      }
+  
+      .blocos{
+        flex-direction: grid;
+  
+      }
+  }
+  
+  @media (max-width: 600px){
+      .footer-col{
+          width: 100%;
+      }
+  } */
+  
+  @media (max-width: 900px) {
+    .container {
+        margin: 10px;
+    }
+    .blocos {
+        display: block;
+    }
+  }
+  
+  /*rodapé*/
+  .rodape{
+    /* background: rgb(67, 141, 44); */
+    /* background: #29bf15; */
+    background: green;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* .container-blocos{
+    display: flex;
+    justify-content: center;
+  } */
+  
+  .links-medias{
+    flex-direction: end;
+    /* margin-top: 60px; */
+    padding-bottom: 20px;
+    margin-top: 5px;
+  }
+  
+  .links-medias a{
+    color: white;
+  }
+  
+  .container-direitos{
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .container-direitos a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  

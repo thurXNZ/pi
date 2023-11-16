@@ -7,7 +7,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background-image: url('../img/lightbulb.webp');
+    background-image: url('../img/lampada-sobre-a-grama_1_78748-transformed.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,7 +16,7 @@ body{
 }
 
 .login{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     height: 100vh;
     width: 30%;
     display: flex;
