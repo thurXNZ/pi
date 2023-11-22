@@ -89,6 +89,14 @@ header {
     margin-right: 50vh;
 }
 
+.texto {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
 /* rodapé */
 
 footer{
