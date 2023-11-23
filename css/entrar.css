@@ -70,3 +70,13 @@ body{
     font-size: 35px;
     color: rgb(67, 141, 44);
   }
+
+  header{
+    background-color: aliceblue;
+  }
+
+  a {
+    background-color: aliceblue;
+    justify-content: start;
+    align-items: start;
+  }
