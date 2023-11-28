@@ -9,15 +9,6 @@ header {
     background-color: #ffffff;
   }
 
-  
-/* .logo img {
-    width: 50px;
-    height: 50px;
-    margin-top: 15px;
-    margin-left: 15px;
-  
-  } */
-
   .menu {
     float: left;
   }
@@ -39,7 +30,6 @@ header {
     padding: 10px 20px;
     border-radius: 25px;
     background-color: #29bf15;
-    /* background-color: green; */
     color: rgb(0, 0, 0);
     text-decoration: none;
     margin-right: 10px;
@@ -52,7 +42,6 @@ header {
   }
   
   .menu a:hover {
-    /* color: #29bf15; */
     color: green;
     font-weight: normal;
   }
@@ -126,48 +115,7 @@ footer{
       margin-top: 10px;
       font-weight: 800;
       text-transform: uppercase;
-
   }
-  
-  /* .footer-col .form-insc input {
-      flex: 1px;
-      width: 100%;
-      padding: 10px;
-      font-size: 15px;
-      outline: none;
-      background-color: white;
-      border: 1px solid white;
-  }
-  
-  .footer-col .form-insc button{
-      width: 100%;
-      margin-top: 10px;
-      padding: 10px;
-      font-size: 17px;
-      outline: none;
-      cursor: pointer;
-      font-weight: bold;
-      background-color: white;
-  } */
-  
-  /*media query*/
-  /* @media (max-width: 850px){
-      .footer-col{
-          width: 50%;
-          margin-bottom: 30px;
-      }
-  
-      .blocos{
-        flex-direction: grid;
-  
-      }
-  }
-  
-  @media (max-width: 600px){
-      .footer-col{
-          width: 100%;
-      }
-  } */
   
   @media (max-width: 900px) {
     .container {
@@ -180,21 +128,13 @@ footer{
   
   /*rodapé*/
   .rodape{
-    /* background: rgb(67, 141, 44); */
-    /* background: #29bf15; */
     background: green;
     text-align: center;
     margin-top: 20px;
   }
   
-  /* .container-blocos{
-    display: flex;
-    justify-content: center;
-  } */
-  
   .links-medias{
     flex-direction: end;
-    /* margin-top: 60px; */
     padding-bottom: 20px;
     margin-top: 5px;
   }
