@@ -48,7 +48,7 @@ header {
 
 .banner{
     min-height: 70vh;
-    background-image: url('../img/energia-eolica56.png');
+    background-image: url('../img/energia-eolica56-transformed.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,14 +68,14 @@ header {
 
 .textoimg1{
     display: flex;
-    margin-left: 50vh;
-    margin-right: 50vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
 }
 
 .textoimg1 texto{
     display: flex;
-    margin-left: 50vh;
-    margin-right: 50vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
 }
 
 .texto {
