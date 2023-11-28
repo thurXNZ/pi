@@ -66,19 +66,7 @@ header {
     color: rgb(67, 141, 44);
 }
 
-.textoimg1{
-    display: flex;
-    margin-left: 20vh;
-    margin-right: 20vh;
-}
-
-.textoimg1 texto{
-    display: flex;
-    margin-left: 20vh;
-    margin-right: 20vh;
-}
-
-.texto {
+.paragrafos {
   display: flex;
   align-items: center;
   text-align: justify;
