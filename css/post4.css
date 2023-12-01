@@ -68,10 +68,14 @@ header {
 
 .paragrafos {
   display: flex;
-  align-items: center;
-  text-align: justify;
-  margin-bottom: 30px;
+  /* align-items: center;
+  text-align: justify; */
+  margin-bottom: 50px;
   font-size: 23px;
+  flex-direction: column;
+  margin-left: 20vh;
+  margin-right: 20vh;
+  text-align: left;
 }
 
 /* rodapé */
