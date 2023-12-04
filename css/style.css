@@ -21,7 +21,7 @@ header {
 
 
 .logo img {
-  width: 175px;
+  width: 150px;
   margin-top: 15px;
   margin-left: 15px;
 
@@ -39,6 +39,7 @@ header {
 .menu {
   float: right;
   margin: 0px;
+  margin-right: 1rem;
 }
 
 
@@ -51,13 +52,13 @@ header {
 
 .menu li {
   display: inline-block;
-  padding: 0 10px;
+  /*padding: 0 10px;*/
 }
 
 
 .menu a {
   display: inline-block;
-  padding: 10px 10px;
+  padding: 10px 5px;
   border-radius: 25px;
   background-color: #29bf15;
   color: rgb(0, 0, 0);
@@ -79,7 +80,7 @@ header {
 /*Banner*/
 
 .banner {
-  min-height: 600px;
+  min-height: 300px;
   background-image: url('../img/energiarenovavel-transformed.webp');
   background-position: center;
   background-size: cover;
@@ -110,13 +111,15 @@ header {
   gap: 3rem;
   justify-content: center;
 }
-
+.blocos p{
+  font-size: medium;
+}
 
 .blocos img {
   display: flex;
   margin-bottom: 10px;
-  width: 300px;
-  height: 250px;
+  width: 256px;
+  height: 193px;
   border-radius: 10%;
   border: solid green 5px;
 }
@@ -140,10 +143,12 @@ header {
   justify-content: center;
   align-items: center;
 }
-
+.sobre{
+  padding: 0px;
+}
 .sobre p {
-  font-size: large;
-  margin: 0px 7rem;
+  font-size: medium;
+  margin: 0px 1rem;
   text-align: center;
   width: auto;
 }
@@ -299,6 +304,15 @@ footer {
   .container {
     margin: 10px;
   }
+  .banner {
+    min-height: 400px;
+    background-image: url('../img/energiarenovavel-transformed.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+  }
 
   .blocos {
     grid-template-columns: repeat(2, 1fr);
@@ -322,6 +336,21 @@ footer {
     display: flex;
     justify-content: space-between;
   }
+  .logo img{
+    width: 200px;
+    margin-top: 1px;
+  }
+  .menu a {
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: #29bf15;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
   
 }
 
@@ -330,7 +359,15 @@ footer {
     display: flex;
     justify-content: space-between;
   }
-
+  .banner {
+    min-height: 500px;
+    background-image: url('../img/energiarenovavel-transformed.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+  }
   .blocos {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -348,6 +385,21 @@ footer {
     margin: 0px;
     display: flex;
     justify-content: space-between;
+  }
+  .sobre p{
+    font-size: large;
+    padding:0px 5rem;
+  }
+  .menu a {
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: #29bf15;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease-in-out;
   }
   
 }
@@ -369,6 +421,17 @@ footer {
     margin: 0px;
     display: flex;
     justify-content: space-between;
+  }
+  .menu a {
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: #29bf15;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease-in-out;
   }
   
 }
